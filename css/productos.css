@@ -5,6 +5,7 @@
 }
 body{
 	font-family: 'Montserrat', sans-serif;
+	/* padding: 10px; */
 }
 a{
 	text-decoration: none;
@@ -12,6 +13,7 @@ a{
 .padre{
 	display: flex;
 	flex-flow: column nowrap;
+	padding: 2%;
 }
 .margen-interno{
 	padding: 0 50px;
