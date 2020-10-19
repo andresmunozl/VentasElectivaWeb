@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/productos.css">
 </head>
 
 <body>
@@ -19,16 +20,15 @@
 					<a href="index.html">Logo</a>
 				</div>
 				<nav class="nav">
-					<a href="#"><i class="fa fa-home" aria-hidden="true"></i><span class="off">Inicio</span></a>
-					<a href="#"><i class="fa fa-shopping-cart"></i><span class="off">Ventas</span></a>
-					<a href="#"><i class="fa fa-comments" aria-hidden="true"></i><span class="off">Orden de
-							trabajo</span></a>
-					<a href="#"><i class="fa fa-shopping-basket"></i><span class="off">Productos</span></a>
-					<a href="#"><i class="fa fa-users"></i></i><span class="off">Clientes</span></a>
-					<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="off">Comprar
+					<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="off">Inicio</span></a>
+					<a href="ventas.html"><i class="fa fa-shopping-cart"></i><span class="off">Ventas</span></a>
+					<a href="ordenTrabajo.html"><i class="fa fa-comments" aria-hidden="true"></i><span class="off">Orden de trabajo</span></a>
+					<a href="productos.html"><i class="fa fa-shopping-basket"></i><span class="off">Productos</span></a>
+					<a href="cliente.html"><i class="fa fa-users"></i></i><span class="off">Clientes</span></a>
+					<a href="comprarproductos.html"><i class="fa fa-envelope" aria-hidden="true"></i><span class="off">Comprar
 							Productos</span></a>
-					<a href="#"><i class="fa fa-signal"></i></i><span class="off">Reportes</span></a>
-					<a href="#"><i class="fa fa-sign-out-alt"></i><span class="off">Cerrar
+					<a href="reportes.html"><i class="fa fa-signal"></i></i><span class="off">Reportes</span></a>
+					<a href="iniciarsesion.html"><i class="fa fa-sign-out-alt"></i><span class="off">Cerrar
 							Sesión</span></a>
 
 
@@ -57,11 +57,11 @@
 					<table role="table">
 						<thead role="rowgroup">
 							<tr role="row">
-								<th role="columnheader">Nombre</th>
-								<th role="columnheader">Marca</th>
-								<th role="columnheader">Descripción</th>
-								<th role="columnheader">Precio</th>
-								<th role="columnheader">Cantidad</th>
+								<th role="columnheader" class = "cp">Nombre</th>
+								<th role="columnheader"class = "cp">Marca</th>
+								<th role="columnheader" class = "cp">Descripción</th>
+								<th role="columnheader" class = "cp">Precio</th>
+								<th role="columnheader" class = "cp">Cantidad</th>
 							</tr>
 						</thead>
 						<tbody role="rowgroup">
@@ -207,13 +207,13 @@
 						</tbody>
 					</table>
 
-					<nav class="navegacion">
-						<a href="#">Inicio</a>
-						<a href="#">1</a>
-						<a href="#">2</a>
-						<a href="#">3</a>
-						<a href="#">4</a>
-						<a href="#">Final</a>
+					<nav class="navegacion refer btn-reporte pc">
+						<a href="#" class="refer btn-reporte pc">Inicio</a>
+						<a href="#" class="refer btn-reporte pc">1</a>
+						<a href="#" class="refer btn-reporte pc">2</a>
+						<a href="#" class="refer btn-reporte pc">3</a>
+						<a href="#" class="refer btn-reporte pc">4</a>
+						<a href="#" class="refer btn-reporte pc">Final</a>
 					</nav>
 
 					<h1>fomar de pago</h1>
@@ -326,7 +326,7 @@
 						</tbody>
 					</table>
 
-					<nav class="navegacion">
+					<nav class="navegacion refer btn-reporte pc">
 						<a href="#">Inicio</a>
 						<a href="#">1</a>
 						<a href="#">2</a>
@@ -335,9 +335,9 @@
 						<a href="#">Final</a>
 					</nav>
 
-					<div>
-						<a name="volver" value="volver" class="refer btn-reporte">Volver</a>
-						<a type="submit" name="continuarventa" value="continuarventa" class="refer btn-reporte" href="ventas_escogercliente.html">Continuar venta</a>
+					<div class="repor">
+						<a name="volver" value="volver" class="refer btn-reporte pc">Volver</a>
+						<a type="submit" name="continuarventa" value="continuarventa" class="refer btn-reporte pc" href="ventas_escogercliente.html">Continuar venta</a>
 						
 					</div>
 

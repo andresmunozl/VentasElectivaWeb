@@ -8,7 +8,7 @@
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/productos.css">
 </head>
 
 <body>
@@ -41,58 +41,61 @@
 				<h1>Aqui enl contenido o las tablas</h1>
 			</div> -->
 		</header>
-		<div><h1>Ordenes de trabajo</h1></div>
-		<section class="section margen-interno">
-			<div class="articulos">
-				<article class="article">
-					<img src="imagenes/2.jpg" alt="">
-					<h3>29 de diciembre 2016</h3>
-					<h2>Aquí van los lados</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quidem ipsam eum corporis,
-						cum temporibus vitae odit a ut nesciunt expedita tempora molestias, ducimus nihil excepturi.
-						Atque sint, quasi amet.</p>
-					<a href="#">Leer más...</a>
-				</article>
-				<article class="article">
-					<img src="imagenes/2.jpg" alt="">
-					<h3>29 de diciembre 2016</h3>
-					<h2>para las compras</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quidem ipsam eum corporis,
-						cum temporibus vitae odit a ut nesciunt expedita tempora molestias, ducimus nihil excepturi.
-						Atque sint, quasi amet.</p>
-					<a href="#">Leer más...</a>
-				</article>
+		<div><h1>Bienvenido Administrador</h1></div>
+		<h1 class="product">Proveedor</h1>
+		<a class="refer btn-agregar pc"  href="crearproveedor.html">Crear nuevo proveedor</a>
+		<table role="table">
+			<thead role="rowgroup">
+			  <tr role="row">
+				<th class = "cp" role="columnheader">Id proveedor</th>
+				<th class = "cp" role="columnheader">Nombre empresa</th>
+				<th class = "cp" role="columnheader">nombre</th>
+				<th class = "cp" role="columnheader">identificación</th>
+				<th class = "cp" role="columnheader">Acciones</th>
+			  </tr>
+			</thead>
+			<tbody role="rowgroup">
+			  <tr role="row">
+				<td role="cell">000001</td>
+				<td role="cell">empresa#1</td>
+				<td role="cell">Elbert Bejarano</td>
+				<td role="cell">3001237986</td>
+				<td role="cell"><a href="editarproveedor.html"><i class="fa fa-edit"></i></a><i class="fa fa-trash"></i></td>
+			  </tr>
 
-				<nav class="navegacion">
-					<a href="#">Inicio</a>
-					<a href="#">1</a>
-					<a href="#">2</a>
-					<a href="#">3</a>
-					<a href="#">4</a>
-					<a href="#">Final</a>
-				</nav>
-			</div>
-			<aside class="aside">
-				<div class="publicidad">
-					<h4>Aside</h4>
-					<img src="imagenes/2.jpg" alt="">
-				</div>
-				<div class="publicidad">
-					<h4>Aside</h4>
-					<img src="imagenes/2.jpg" alt="">
-				</div>
-				<div class="publicidad">
-					<h4>Aside</h4>
-					<img src="imagenes/2.jpg" alt="">
-				</div>
-			</aside>
-		</section>
-		<footer class="footer margen-interno">
+			  <tr role="row">
+				<td role="cell">000002</td>
+				<td role="cell">empresa#2</td>
+				<td role="cell">Natalia Zuñiga</td>
+				<td role="cell">3001237986</td>
+				<td role="cell"><a href="editarproveedor.html"><i class="fa fa-edit"></i></a><i class="fa fa-trash"></i></td>
+			  </tr>
+
+			  <tr role="row">
+				<td role="cell">000003</td>
+				<td role="cell">empresa#3</td>
+				<td role="cell">Rosa Angulo</td>
+				<td role="cell">3001237986</td>
+				<td role="cell"><a href="editarproveedor.html"><i class="fa fa-edit"></i></a><i class="fa fa-trash"></i></td>
+			  </tr>
+
+			 
+			  
+			  
+			</tbody>
+		  </table>
+		  <div class="repor">
+		  <!-- <a class="refer btn-reporte pc"  href="#">Generar reporte de inventario</a> -->
+		</div>
+		<footer class="footer margen-interno pc">
 			<nav class="pie">
 				<a href="#">copyRight 2020</a>
 			</nav>
 		</footer>
 	</div>
+
+
+	
 </body>
 
 </html>
