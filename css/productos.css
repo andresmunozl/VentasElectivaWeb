@@ -216,5 +216,39 @@ You could also use a data-* attribute and content for this. That way "bloats" th
     float:right; 
     max-width:50%;
     margin-right: 10px;
+}
+.btn-ventas {
+    float: left;
+    max-width:50%;
+    margin-left: 10px;
+}
+.btn-compras {
+    float: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    max-width:50%;
+}
+.comp {
    
+        width: 370px;
+       
+        padding: 0 5px;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+      
+       
+}
+.rell {
+
+        width: 98%;
+       
+        height: 40px;
+       
+        font: 300 24px;
+       
+        margin: 5px 0 10px 0;
+       
 }
