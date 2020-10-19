@@ -210,7 +210,15 @@ You could also use a data-* attribute and content for this. That way "bloats" th
 
 .repor{
     display:inline-block;
-       width:100%;
+	width:100%;
+	display: flex;  
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content:space-evenly
+}
+.repor2{
+    display:inline-block;
+    width:100%;
 }
 .btn-reporte {
     float:right; 
@@ -226,29 +234,42 @@ You could also use a data-* attribute and content for this. That way "bloats" th
     float: none;
     align-items: center;
     align-content: center;
-    text-align: center;
+	text-align: center;
+	justify-content: center;
+
     max-width:50%;
 }
-.comp {
-   
-        width: 370px;
-       
-        padding: 0 5px;
-        margin: 0 auto;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-      
-       
-}
-.rell {
 
-        width: 98%;
-       
-        height: 40px;
-       
-        font: 300 24px;
-       
-        margin: 5px 0 10px 0;
-       
+/*desde aqui puedes modificar los css de nuestro modal*/
+.modal-contenido{
+	background-color:whitesmoke;
+	width:500px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+  }
+  .modal{
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;
+	transition: all 1s;
+  }
+  #miModal:target{
+	opacity:1;
+	pointer-events:auto;
+  }
+#mi2Modal:target{
+	opacity:1;
+	pointer-events:auto;
+  }
+ /* fin de   css del modal*/
+
+.adj{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }

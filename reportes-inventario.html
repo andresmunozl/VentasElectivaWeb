@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox práctica (2)</title>
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/productos.css">
+</head>
+
+<body>
+	<div class="padre">
+		<header class="header">
+			<div class="menu margen-interno">
+				<div class="logo">
+					<a href="index.html">Logo</a>
+				</div>
+				<nav class="nav">
+					<a href="#"><i class="fa fa-home" aria-hidden="true"></i><span class="off">Inicio</span></a>
+					<a href="#"><i class="fa fa-shopping-cart"></i><span class="off">Ventas</span></a>
+					<a href="#"><i class="fa fa-comments" aria-hidden="true"></i><span class="off">Orden de trabajo</span></a>
+					<a href="#"><i class="fa fa-shopping-basket"></i><span class="off">Productos</span></a>
+					<a href="#"><i class="fa fa-users"></i></i><span class="off">Clientes</span></a>
+					<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="off">Comprar
+							Productos</span></a>
+					<a href="#"><i class="fa fa-signal"></i></i><span class="off">Reportes</span></a>
+					<a href="#"><i class="fa fa-sign-out-alt"></i><span class="off">Cerrar Sesión</span></a>
+
+
+				</nav>
+				<!-- <div class="social">
+					<div><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+					<div><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
+				</div> -->
+			</div>
+			<!-- <div class="texto-principal margen-interno">
+				<h1>Aqui enl contenido o las tablas</h1>
+			</div> -->
+		</header>
+		<div><h1>Bienvenido Administrador</h1></div>
+		<h1 class="product">Reportes</h1>
+		
+		  <div class="repor adj">
+		  <a class="refer pc"  href="reportes-ventas.html">Ventas Totales</a>
+		  <a class="refer pc"  href="reportes-compras.html">Compras Totales</a>
+		  <a class="refer pc"  href="reportes-inventario.html">Inventario actual</a>
+		</div>
+		
+        <table role="table">
+			<thead role="rowgroup">
+			  <tr role="row">
+				<th class = "cp" role="columnheader">Código</th>
+				<th class = "cp" role="columnheader">Nombre</th>
+                <th class = "cp" role="columnheader">Marca</th>
+                <th class = "cp" role="columnheader">Modelo</th>
+                <th class = "cp" role="columnheader">Ubicación</th>
+				<th class = "cp" role="columnheader">Stock</th>
+			  </tr>
+			</thead>
+			<tbody role="rowgroup">
+			  <tr role="row">
+				<td role="cell">000001</td>
+				<td role="cell">Producto#1</td>
+                 <td role="cell">ZTE</td>
+				<td role="cell">2010</td>
+				<td role="cell">Vitrina</td>
+				<td role="cell">2 </td>
+				
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000002</td>
+				<td role="cell">Producto#2</td>
+                  <td role="cell">ASUS</td>
+				<td role="cell">2009</td>
+				<td role="cell">Vitrina</td>
+				<td role="cell">4</td>
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000003</td>
+				<td role="cell">Producto#3</td>
+                  <td role="cell">EPSON</td>
+				<td role="cell">2020</td>
+				<td role="cell">Bodega</td>
+				<td role="cell">1 </td>
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000004</td>
+				<td role="cell">Producto#4</td>
+                  <td role="cell">LG</td>
+				<td role="cell">2016</td>
+				<td role="cell">Vitrina</td>
+				<td role="cell">3 </td>
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000005</td>
+				<td role="cell">Producto#5</td>
+                  <td role="cell">MSI</td>
+				<td role="cell">2018</td>
+				<td role="cell">Bodega</td>
+				<td role="cell">2</td>
+			  </tr>
+			</tbody>
+		  </table>
+
+		<footer class="footer margen-interno pc">
+			<nav class="pie">
+				<a href="#">copyRight 2020</a>
+			</nav>
+		</footer>
+	</div>
+
+
+	
+</body>
+
+</html>
