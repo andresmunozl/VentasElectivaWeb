@@ -8,7 +8,7 @@
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/productos.css">
 </head>
 
 <body>
@@ -32,67 +32,84 @@
 
 
 				</nav>
-				<!-- <div class="social">
-					<div><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
-					<div><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
-				</div> -->
-			</div>
-			<!-- <div class="texto-principal margen-interno">
-				<h1>Aqui enl contenido o las tablas</h1>
-			</div> -->
-		</header>
-		<div><h1>Ordenes de trabajo</h1></div>
-		<section class="section margen-interno">
-			<div class="articulos">
-				<article class="article">
-					<img src="imagenes/2.jpg" alt="">
-					<h3>29 de diciembre 2016</h3>
-					<h2>Aquí van los lados</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quidem ipsam eum corporis,
-						cum temporibus vitae odit a ut nesciunt expedita tempora molestias, ducimus nihil excepturi.
-						Atque sint, quasi amet.</p>
-					<a href="#">Leer más...</a>
-				</article>
-				<article class="article">
-					<img src="imagenes/2.jpg" alt="">
-					<h3>29 de diciembre 2016</h3>
-					<h2>para las compras</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quidem ipsam eum corporis,
-						cum temporibus vitae odit a ut nesciunt expedita tempora molestias, ducimus nihil excepturi.
-						Atque sint, quasi amet.</p>
-					<a href="#">Leer más...</a>
-				</article>
 
-				<nav class="navegacion">
-					<a href="#">Inicio</a>
-					<a href="#">1</a>
-					<a href="#">2</a>
-					<a href="#">3</a>
-					<a href="#">4</a>
-					<a href="#">Final</a>
-				</nav>
 			</div>
-			<aside class="aside">
-				<div class="publicidad">
-					<h4>Aside</h4>
-					<img src="imagenes/2.jpg" alt="">
-				</div>
-				<div class="publicidad">
-					<h4>Aside</h4>
-					<img src="imagenes/2.jpg" alt="">
-				</div>
-				<div class="publicidad">
-					<h4>Aside</h4>
-					<img src="imagenes/2.jpg" alt="">
-				</div>
-			</aside>
-		</section>
-		<footer class="footer margen-interno">
+
+		</header>
+		<div><h1>Bienvenido Administrador</h1></div>
+		<h1 class="product">Ordenes de trabajo</h1>
+		<a class="refer btn-agregar pc"  href="ventas.html">Agregar Orden</a>
+		<table class="adj" role="table">
+			<thead role="rowgroup">
+			  <tr role="row">
+				<th class = "cp" role="columnheader">Código de Orden</th>
+				<th class = "cp" role="columnheader">Nombre de Operador</th>
+				<th class = "cp" role="columnheader">Fecha</th>
+				<th class = "cp" role="columnheader">Costo</th>
+				<th class = "cp" role="columnheader">Acciones</th>
+			  </tr>
+			</thead>
+			<tbody role="rowgroup">
+			  <tr role="row">
+				<td role="cell">000001</td>
+				<td role="cell">Pepito</td>
+				<td role="cell">12/10/2019</td>
+				<td role="cell">$1.400.000</td>
+				<td role="cell"> <a href="modificar-orden.html"><i class="fa fa-edit"></i></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000002</td>
+				<td role="cell">Don Vergas</td>
+				<td role="cell">01/10/2009</td>
+				<td role="cell">$800.000</td>
+				<td role="cell"> <a href="modificar-orden.html"><i class="fa fa-edit"></i></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000003</td>
+				<td role="cell">Juanito</td>
+				<td role="cell">01/02/2020</td>
+				<td role="cell">$2.000.000</td>
+				<td role="cell"> <a href="modificar-orden.html"><i class="fa fa-edit"></i></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000004</td>
+				<td role="cell">Valentina</td>
+				<td role="cell">29/06/2016</td>
+				<td role="cell">$1.300.000</td>
+				<td role="cell"> <a href="modificar-orden.html"><i class="fa fa-edit"></i></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+			  </tr>
+			  <tr role="row">
+				<td role="cell">000005</td>
+				<td role="cell">Natalia</td>
+				<td role="cell">15/07/2018</td>
+				<td role="cell">$3.300.000</td>
+				<td role="cell"> <a href="modificar-orden.html"><i class="fa fa-edit"></i></i><span class="off"></span></a>  <a href="#miModal"> <i class="fa fa-trash"></i> <span class="off"></span></a> </td>
+			  </tr>
+			</tbody>
+		  </table>
+
+        <div id="miModal" class="modal">
+			<div class="modal-contenido">
+			  <a href="#">X</a>
+			  <h1>¿Seguro desea eliminar este producto?</h1>
+			  <p>Esta acción no tiene marcha atrás, al presionar Si se eliminará este producto</p>
+			    <div class="repor">
+                      <a class="refer pc"  href="#">Si</a>
+		              <a class="refer pc"  href="#">No</a>
+			</div> 
+			</div>  
+		  </div>
+
+		  
+		<footer class="footer margen-interno pc">
 			<nav class="pie">
 				<a href="#">copyRight 2020</a>
 			</nav>
 		</footer>
 	</div>
+
+
+	
 </body>
 
 </html>

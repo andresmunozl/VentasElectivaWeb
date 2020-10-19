@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="css/productos.css">
+	<link rel="stylesheet" href="css/crearproductos.css">
 </head>
 
 <body>
@@ -37,26 +38,46 @@
 
 		</header>
 		<div><h1>Bienvenido Administrador</h1></div>
-		<h1 class="product adj">Reportes</h1>
-	
-		  <div class="repor">
-		  <a class="refer pc"  href="reportes-ventas.html">Ventas Totales</a>
-		  <a class="refer pc"  href="reportes-compras.html">Compras Totales</a>
-		  <a class="refer pc"  href="reportes-inventario.html">Inventario actual</a>
-		</div>
+		<h1 class="product">Modificar Orden de trabajo</h1>
 		
-
-
-		<div class="repor adj">
-			<p>Las compras totales de la tienda en el último mes fueron de: $6.000.000</p>
-		</div>
-
+		<div class="div2">
+			<form action="/action_page.php">
+                
+                 <label for="lname">Código de orden</label>
+			  <input type="text" id="lname" name="lastname" placeholder="0000001">
+                
+			  <label for="fname">Nombre del operador</label>
+			  <input type="text" id="fname" name="firstname" placeholder="Pepito">
+                
+              <label for="lname">Fecha</label>
+			  <input type="text" id="lname" name="lastname" placeholder="02/04/2010">
+		  
+                
+                <label for="precio">Costo</label>
+			  <input type="text" id="lname" name="precio" placeholder="$3.300.000">
+                
+			
+			  <a href="#miModal" class="refer btn-reporte pc">Guardar</a>
+			</form>
+		 </div>
+    
+            <div id="miModal" class="modal">
+			<div class="modal-contenido">
+			  <a href="#">X</a>
+			  <h1>Compra exitosa</h1>
+			  <p>¡El producto ha sido guardado exitosamente!</p>
+			    <div class="repor">
+                      <a class="refer pc"  href="ordenTrabajo.html">Ok</a>
+		              
+			</div> 
+			</div>  
+		  </div>
 		<footer class="footer margen-interno pc">
 			<nav class="pie">
 				<a href="#">copyRight 2020</a>
 			</nav>
 		</footer>
-	</div>
+	
 
 
 	
