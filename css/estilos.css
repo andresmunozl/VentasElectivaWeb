@@ -109,12 +109,12 @@ a{
 				color: #fff;
 				font-size: 13px;
 				padding: 10px;
-				background: #000;
+				background: #fa9b4c;
 				margin: 10px 0;
 				display: inline-block;
 			}
 			.article a:hover{
-				background: #808080;
+				/* background: #808080; */
 			}
 			h3{
 				color: #fff;
@@ -129,7 +129,7 @@ a{
 				color: #fff;
 			}
 			.navegacion{
-				background: #000;
+				background: #fa9b4c;
 				flex:1 1 100%;
 				margin: 10px 10px 0 0px;
 			}

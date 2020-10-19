@@ -8,9 +8,8 @@
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/estilosiniciarsesion.css">
 	<link rel="stylesheet" href="css/productos.css">
+	<link rel="stylesheet" href="css/crearproductos.css">
 </head>
 
 <body>
@@ -37,41 +36,37 @@
 
 
 				</nav>
-				<!-- <div class="social">
-					<div><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
-					<div><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
-				</div> -->
+
 			</div>
-			<!-- <div class="texto-principal margen-interno">
-				<h1>Aqui enl contenido o las tablas</h1>
-			</div> -->
+
 		</header>
 		<div>
-			<h1>Crear cliente</h1>
+			<h1>Bienvenido Administrador</h1>
 		</div>
-		<section class="section margen-interno">
+		<h1 class="product">Crear nuevo cliente</h1>
 
-			<div class="divlogin">
-				<form method="post" action="" name="signin-form" class="fomulario">
-					<div class="form-element">
-						<label class="labeltextos">Nombre</label>
-						<input type="text" name="username" required class="inputs" />
-					</div>
-					<div class="form-element">
-						<label class="labeltextos">Identificación</label>
-						<input type="password" name="password" required class="inputs" />
-					</div>
-					<button type="submit" name="login" value="login" class="refer pc">Guardar</button>
-				</form>
-			</div>
+		<div class="div2">
+			<form action="cliente.html">
+				<label for="fname">Nombre</label>
+				<input type="text" id="fname" name="firstname" placeholder="Escribe el nombre del cliente..">
 
-		</section>
-		<footer class="footer margen-interno">
+
+				<label for="precio">Identificación</label>
+				<input type="text" id="lname" name="precio" placeholder="Identificación del cliente">
+
+
+				<input type="submit" value="Guardar">
+			</form>
+		</div>
+		<footer class="footer margen-interno pc">
 			<nav class="pie">
 				<a href="#">copyRight 2020</a>
 			</nav>
 		</footer>
-	</div>
+
+
+
+
 </body>
 
 </html>

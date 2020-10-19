@@ -39,7 +39,7 @@
 		</header>
 		<div><h1>Bienvenido Administrador</h1></div>
 		<h1 class="product">Generar una venta o cotización</h1>
-		<a class="refer btn-agregar pc"  href="#">Crear nuevo cliente</a>
+		<a class="refer btn-agregar pc"  href="crearcliente.html">Crear nuevo cliente</a>
 		<table role="table">
 			<thead role="rowgroup">
 			  <tr role="row">
@@ -71,7 +71,7 @@
 				<td role="cell">000001</td>
 				<td role="cell">usuario#3</td>
 				<td role="cell">1061123123</td>
-				<td role="cell"><input type="radio" id="male" name="gender" value="male">
+				<td role="cell"><input type="radio" id="male" name="gender" value="selec">
 					</td>
 				
 			  </tr>
@@ -79,7 +79,7 @@
 				<td role="cell">000001</td>
 				<td role="cell">usuario#4</td>
 				<td role="cell">1061123123</td>
-				<td role="cell"><input type="radio" id="male" name="gender" value="male">
+				<td role="cell"><input type="radio" id="male" name="gender" value="selec">
 					</td>
 				
 			  </tr>
@@ -87,7 +87,7 @@
 				<td role="cell">000001</td>
 				<td role="cell">usuario#5</td>
 				<td role="cell">1061123123</td>
-				<td role="cell"><input type="radio" id="male" name="gender" value="male">
+				<td role="cell"><input type="radio" id="male" name="gender" value="selec">
 					</td>
 				
 			  </tr>
@@ -96,11 +96,43 @@
 			</tbody>
 		  </table>
 		  <div class="repor">
-			<a class="refer btn-reporte pc"  href="#">Continuar con la venta</a>
-			<a class="refer btn-reporte pc"  href="#">Guardar cotización</a>
-		  <a class="refer btn-reporte pc"  href="#">Volver</a>
+			<a class="refer btn-reporte pc" href="#modalRealizarVenta">Continuar con la venta</a>
+			<a class="refer btn-reporte pc"  href="#modalGuardarCotizacion">Guardar cotización</a>
+		  <a class="refer btn-reporte pc"  href="ventas.html">Volver</a>
 		  
 		</div>
+
+		 <!-- aqui puedes programar el modal-->
+		 <div id="modalRealizarVenta" class="modal">
+			<div class="modal-contenido">
+			  <a href="#">X</a>
+			  <h1>¡Venta/cotización hecha!</h1>
+			  <p>Usted ha generado exitosamente una venta, recuerde
+				que la venta/cotización ha quedado guardada en
+				"Ordenes de Trabajo"</p>
+			    <div class="repor">
+                      <a class="refer pc"  href="#">Si</a>
+		              <a class="refer pc"  href="#">No</a>
+			</div> 
+			</div>  
+		  </div>
+		 <!-- aqui finaliza el modal-->
+		 
+		  <!-- aqui puedes programar el modal-->
+		  <div id="modalGuardarCotizacion" class="modal">
+			<div class="modal-contenido">
+			  <a href="#">X</a>
+			  <h1>¿Desea imprimir la cotización?</h1>
+			  <p>Recuerde que con esto se dará por terminado el 
+				proceso de venta y se guardará la información</p>
+			    <div class="repor">
+                      <a class="refer pc"  href="#">Si</a>
+		              <a class="refer pc"  href="#">No</a>
+			</div> 
+			</div>  
+		  </div>
+		 <!-- aqui finaliza el modal-->
+		 
 		<footer class="footer margen-interno">
 			<nav class="pie">
 				<a href="#">copyRight 2020</a>
