@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox práctica (2)</title>
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+	<div class="padre">
+		<header class="header">
+			<div class="menu margen-interno">
+				<div class="logo">
+					<a href="index.html">Logo</a>
+				</div>
+				<nav class="nav">
+					<a href="#"><i class="fa fa-home" aria-hidden="true"></i><span class="off">Inicio</span></a>
+					<a href="#"><i class="fa fa-shopping-cart"></i><span class="off">Ventas</span></a>
+					<a href="#"><i class="fa fa-comments" aria-hidden="true"></i><span class="off">Orden de
+							trabajo</span></a>
+					<a href="#"><i class="fa fa-shopping-basket"></i><span class="off">Productos</span></a>
+					<a href="#"><i class="fa fa-users"></i></i><span class="off">Clientes</span></a>
+					<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="off">Comprar
+							Productos</span></a>
+					<a href="#"><i class="fa fa-signal"></i></i><span class="off">Reportes</span></a>
+					<a href="#"><i class="fa fa-sign-out-alt"></i><span class="off">Cerrar
+							Sesión</span></a>
+
+
+				</nav>
+				<!-- <div class="social">
+					<div><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+					<div><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
+				</div> -->
+			</div>
+			<!-- <div class="texto-principal margen-interno">
+				<h1>Aqui enl contenido o las tablas</h1>
+			</div> -->
+		</header>
+		<div>
+			<h1>Ventas</h1>
+		</div>
+		<section class="section margen-interno">
+			<div class="articulos" style=" justify-content: center;">
+				<div class="article">
+					<h1>Seleccionar clientes</h1>
+					<!-- tabla productos -->
+					<div class="form-element">
+						<label class="labeltextos">buscar</label>
+						<input type="text" name="buscar" required class=""/>
+					</div>
+					<table role="table">
+						<thead role="rowgroup">
+							<tr role="row">
+								<th role="columnheader">Nombre</th>
+								<th role="columnheader">id</th>
+								<th role="columnheader">identificación</th>
+								<th role="columnheader">Seleccionar</th>
+							</tr>
+						</thead>
+						<tbody role="rowgroup">
+							<tr role="row">
+								<td role="cell">James</td>
+								<td role="cell">Matman</td>
+								<td role="cell">Chief Sandwich Eater</td>
+								<td role="cell">
+									<div>
+										
+										<input type="radio" id="efectivo" name="pago" value="efectivo">
+									</div>
+								</td>
+							</tr>
+
+							<tr role="row">
+								<td role="cell">James</td>
+								<td role="cell">Matman</td>
+								<td role="cell">Chief Sandwich Eater</td>
+								<td role="cell">
+									<div>
+										
+										<input type="radio" id="efectivo" name="pago" value="efectivo">
+									</div>
+								</td>
+							</tr>
+
+							<tr role="row">
+								<td role="cell">James</td>
+								<td role="cell">Matman</td>
+								<td role="cell">Chief Sandwich Eater</td>
+								<td role="cell">
+									<div>
+										
+										<input type="radio" id="efectivo" name="pago" value="efectivo">
+									</div>
+								</td>
+							</tr>
+
+							<tr role="row">
+								<td role="cell">James</td>
+								<td role="cell">Matman</td>
+								<td role="cell">Chief Sandwich Eater</td>
+								<td role="cell">
+									<div>
+										
+										<input type="radio" id="efectivo" name="pago" value="efectivo">
+									</div>
+								</td>
+							</tr>
+
+							<tr role="row">
+								<td role="cell">James</td>
+								<td role="cell">Matman</td>
+								<td role="cell">Chief Sandwich Eater</td>
+								<td role="cell">
+									<div>
+										
+										<input type="radio" id="efectivo" name="pago" value="efectivo">
+									</div>
+								</td>
+							</tr>
+
+							<tr role="row">
+								<td role="cell">James</td>
+								<td role="cell">Matman</td>
+								<td role="cell">Chief Sandwich Eater</td>
+								<td role="cell">
+									<div>
+										
+										<input type="radio" id="efectivo" name="pago" value="efectivo">
+									</div>
+								</td>
+							</tr>
+							
+							
+							
+
+						</tbody>
+					</table>
+
+					<nav class="navegacion">
+						<a href="#">Inicio</a>
+						<a href="#">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">Final</a>
+					</nav>
+
+					<div>
+						<a name="volver" value="volver" class="refer btn-reporte">Volver</a>
+						<a type="submit" name="continuarventa" value="continuarventa" class="refer btn-reporte" href="ventas_escogercliente.html">Guardar cotización</a>
+						<a type="submit" name="continuarventa" value="continuarventa" class="refer btn-reporte" href="ventas_escogercliente.html">Continuar venta</a>
+
+						
+					</div>
+
+
+				</div>				
+
+
+			</div>
+			
+			
+		</section>
+		<footer class="footer margen-interno">
+			<nav class="pie">
+				<a href="#">copyRight 2020</a>
+			</nav>
+		</footer>
+	</div>
+</body>
+
+</html>
