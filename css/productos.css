@@ -39,7 +39,7 @@ a{
 			flex-flow: row nowrap;
 			height: 40px;
 			align-items: center;
-			border-bottom: 1px solid rgba(255,255,255,.5)
+			border-bottom: 1px solid rgba(255,255,255,.5);
 			border: 2px solid #fff;
 		}
 			.logo{
